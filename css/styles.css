@@ -1,0 +1,138 @@
+#background {
+  height: 100vh;
+  width: 100%;
+  background: url(../images/ww/BG-sky.png) no-repeat center center/cover; }
+
+#parallax {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url(../images/ww/BG-ground.png), url(../images/ww/BG-mtns1.png), url(../images/ww/BG-mtns2.png), url(../images/ww/BG-mtns3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50% 100%; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden; }
+
+.wrap {
+  height: 1000px;
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.cube {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: rotateY(45deg); }
+
+.cube div {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.left {
+  transform: rotateY(90deg) translateX(50%) rotateY(90deg);
+  left: 1px; }
+
+.right {
+  transform: rotateY(-270deg) translateX(50%);
+  transform-origin: top right;
+  right: 1px; }
+
+#hat {
+  perspective: 1800px;
+  perspective-origin: 50% 30%; }
+
+#brim {
+  perspective: 1800px;
+  perspective-origin: 50% 30%; }
+
+#face {
+  perspective: 2000px;
+  perspective-origin: 50% 45%; }
+
+#shadow {
+  perspective: 2000px;
+  perspective-origin: 50% 40%; }
+
+#tie {
+  perspective: 2000px;
+  perspective-origin: 50% 70%; }
+
+#jacket {
+  perspective: 1600px;
+  perspective-origin: 50% 60%; }
+
+#hat .cube div {
+  bottom: 55px; }
+
+#brim .cube div {
+  bottom: 55px; }
+
+#face .cube div {
+  bottom: 100px; }
+
+#shadow .cube div {
+  bottom: 100px; }
+
+#tie .cube div {
+  top: 20px; }
+
+#jacket .cube div {
+  top: 380px; }
+
+#hat .left {
+  background: url(../images/ww/hat-L.png) no-repeat left center/contain; }
+
+#hat .right {
+  background: url(../images/ww/hat-R.png) no-repeat right center/contain; }
+
+#brim .left {
+  background: url(../images/ww/brim-L.png) no-repeat left center/contain; }
+
+#brim .right {
+  background: url(../images/ww/brim-R.png) no-repeat right center/contain; }
+
+#shadow .left {
+  background: url(../images/ww/shadow-L.png) no-repeat left center/contain; }
+
+#shadow .right {
+  background: url(../images/ww/shadow-R.png) no-repeat right center/contain; }
+
+#tie .left {
+  background: url(../images/ww/tie-L.png) no-repeat left center/contain; }
+
+#tie .right {
+  background: url(../images/ww/tie-R.png) no-repeat right center/contain; }
+
+#jacket .left {
+  background: url(../images/ww/jacket-L.png) no-repeat left center/contain; }
+
+#jacket .right {
+  background: url(../images/ww/jacket-R.png) no-repeat right center/contain; }
+
+#bill {
+  opacity: 1;
+  background: url(../images/ww/bill.png) no-repeat left center/contain; }
+
+#will {
+  opacity: 1;
+  background: url(../images/ww/will.png) no-repeat right center/contain; }
+
+#bill2 {
+  opacity: 0;
+  background: url(../images/ww/bill2.png) no-repeat right center/contain; }
+
+#will2 {
+  opacity: 0;
+  background: url(../images/ww/will2.png) no-repeat left center/contain; }
+
+/*# sourceMappingURL=styles.css.map */
