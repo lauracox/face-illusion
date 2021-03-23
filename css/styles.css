@@ -16,7 +16,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-  overflow: hidden; }
+  overflow: visible; }
 
 .wrap {
   height: 1000px;
@@ -24,19 +24,22 @@ html, body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  overflow: visible; }
 
 .cube {
   position: relative;
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transform: rotateY(45deg); }
+  transform: rotateY(45deg);
+  overflow: visible; }
 
 .cube div {
   position: absolute;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  overflow: visible; }
 
 .left {
   transform: rotateY(90deg) translateX(50%) rotateY(90deg);
