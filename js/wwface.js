@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	function turn(event) {
 		var x = event.clientX;
 		var half = (window.innerWidth / 2);
-		var rot = (45 + (half - x) / 45);
+		var rot = (45 + (half - x) / 50);
 		var trans = (-50 + (half - x) / 75);
 		var opac = ((half - x) / half);
 

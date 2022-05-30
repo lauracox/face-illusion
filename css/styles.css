@@ -1,7 +1,7 @@
 #background {
   height: 100vh;
   width: 100%;
-  background: url(../images/ww/BG-sky.png) no-repeat center center/cover; }
+  background: url(../images/ww/BG-sky.jpg) no-repeat center center/cover; }
 
 #parallax {
   width: 100%;
@@ -53,7 +53,7 @@ html, body {
 
 #hat {
   perspective: 1800px;
-  perspective-origin: 50% 30%; }
+  perspective-origin: 50% 20%; }
 
 #brim {
   perspective: 1800px;
@@ -76,10 +76,10 @@ html, body {
   perspective-origin: 50% 60%; }
 
 #hat .cube div {
-  top: 30px; }
+  top: 50px; }
 
 #brim .cube div {
-  top: 30px; }
+  top: 40px; }
 
 #face .cube div {
   top: 0; }
